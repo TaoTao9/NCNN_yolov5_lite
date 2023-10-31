@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/pi/tao_workspace/test_yolov5lite/build",
-  "command": "/usr/bin/c++  -isystem /home/pi/Downloads/inference_engine_vpu_arm/opencv/include -isystem /home/pi/tao_workspace/test_yolov5lite/ncnn/include/ncnn -g -fPIE -fopenmp -pthread -std=gnu++11 -o CMakeFiles/yolov5_lite.dir/yolov5_lite_e.cpp.o -c /home/pi/tao_workspace/test_yolov5lite/yolov5_lite_e.cpp",
-  "file": "/home/pi/tao_workspace/test_yolov5lite/yolov5_lite_e.cpp"
-}
-]

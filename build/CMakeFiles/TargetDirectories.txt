@@ -1,3 +1,0 @@
-/home/pi/tao_workspace/test_yolov5lite/build/CMakeFiles/rebuild_cache.dir
-/home/pi/tao_workspace/test_yolov5lite/build/CMakeFiles/edit_cache.dir
-/home/pi/tao_workspace/test_yolov5lite/build/CMakeFiles/yolov5_lite.dir
