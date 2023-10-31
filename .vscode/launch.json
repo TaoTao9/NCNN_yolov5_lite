@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "yolov5_lite",//debug的名字，可以自定义
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/yolov5_lite",//生成的执行文件的路径，一般就是build路径加在CMakeList中的可执行文件的名字
+            "args": ["../img/banana1.jpg","../img_result/banana1.jpg"],//图片的位置是相对于launch.json
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",//需要提前安装过gdb
+            // "setupCommands": [
+            //     {
+            //         "description": "Enable pretty-printing for gdb",
+            //         "text": "-enable-pretty-printing",
+            //         "ignoreFailures": true
+            //     },
+            //     {
+            //         "description": "Set Disassembly Flavor to Intel",
+            //         "text": "-gdb-set disassembly-flavor intel",
+            //         "ignoreFailures": true
+            //     }
+            // ],
+            "preLaunchTask": "Build my project"
+        }
+    ]
+}
