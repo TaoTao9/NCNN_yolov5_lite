@@ -129,7 +129,7 @@ target_include_directories(yolov5_lite PRIVATE ${OpenCV_INCLUDE_DIRS})
             ]
         },
         {
-            "label":"Build my project",//一定要跟launch.son的"preLaunchTask"的值一样
+            "label":"Build my project",//一定要跟launch.json的"preLaunchTask"的值一样
             "dependsOn":[
                 "cmake",
                 "make"             
