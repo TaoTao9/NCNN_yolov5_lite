@@ -1,4 +1,4 @@
-# NCNN_yolov5_lite# 在vscode上使用cmake对NCNN进行debug
+# 在vscode上使用cmake对NCNN进行debug
 
 在上一篇博客使用[在树莓派下使用NCNN部署YOLOv5-lite-CSDN博客](https://blog.csdn.net/weixin_45725336/article/details/133946474?spm=1001.2014.3001.5501)都是直接使用命令行运行，但是具体如何使用vscode来进行debug调试，发现网上这方面没有专门讲这方面的，故写今天这个笔记。
 
